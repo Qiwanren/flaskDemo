@@ -1,5 +1,10 @@
 # coding:utf-8
 
+'''
+    映射的时候，避免名称重复
+
+'''
+
 from flask import Flask
 from app.action.auth import auth
 from app.action.user import user
