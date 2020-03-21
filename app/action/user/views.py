@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from app.user import user
+from app.action.user import user
 from flask import jsonify
 import json
 user_data = [

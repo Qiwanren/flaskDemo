@@ -1,6 +1,6 @@
 # coding:utf-8
 
-from app.auth import auth
+from app.action.auth import auth
 from flask import jsonify
 import json
 
